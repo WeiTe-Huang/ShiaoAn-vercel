@@ -21,7 +21,7 @@
 ## 三、運作說明
 
 - 前端：`dist/`（`npm run build`）
-- API：`api/openai/[...path].ts` 轉發至 OpenAI（金鑰只在伺服器）
+- API：`api/openai-proxy.ts`（`vercel.json` 將 `/api/openai/*` 轉發至此）
 - 勿把 `.env.local` 提交到 GitHub
 
 ## 四、自訂網域
