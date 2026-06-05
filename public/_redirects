@@ -1,0 +1,3 @@
+# Cloudflare Pages / Netlify 靜態託管：SPA 路由
+/api/openai/*  /.netlify/functions/openai-proxy/:splat  200
+/*    /index.html   200
